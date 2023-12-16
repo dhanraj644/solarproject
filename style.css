@@ -1,0 +1,275 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+    
+}
+.top-nav{
+    height: 40px;
+    width: 100%;
+    background-color: #1a2a36;
+}
+.contener{
+    display: flex;
+}
+.top_address{
+    padding: 5px;
+    display: flex;
+    margin-left: 15px;
+}
+.top_address>i{
+    margin-top: 5px;
+    color: #32C36C;
+}
+.top_address>p{
+    margin-left:5px ;
+    color:gray;
+    margin-top: 2px;
+}
+.top_address>a{
+padding-left: 2px;
+text-decoration: none;
+color:gray;
+    margin-top: 2px;
+}
+.social{
+    padding: 5px;
+   
+    
+}
+.social>ul>a{
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    border-right: 1px solid wheat;
+}
+.social>ul>a>i{
+color: #32C36C;
+}
+@media (min-width:990px ) and ( max-width:1090px) {
+.right{
+    margin-left: -30px;
+}
+}
+@media screen and (max-width: 990px) {
+    .top-nav{
+        display: none;
+    }
+}
+
+.navbar{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+}
+.logo{
+    width: 250px;
+    height: 70px;
+    border-right: 1px solid black;
+    padding: 5px;
+}
+.logo>h4{
+    color: #32C36C;
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 30px;
+}
+.list{
+    padding: 5px;
+}
+.list>a{
+color: black;
+text-decoration: none;
+padding: 1px;
+margin-right: 20px;
+}
+.list>a:hover{
+    color: #32C36C;
+}
+#arw{
+  font-size: small;
+}
+.sub-nav{
+    position: absolute;
+    background-color: #32C36C;
+    width: 210px;
+    height: 150px;
+    border-radius: 10px;
+    margin-left: 200px;
+    margin-top: 15px;
+    display: none;
+}
+.sub-nav>a{
+    text-decoration: none;
+    color: black;
+
+    font-size: 1.2rem;
+}
+.bar{
+    padding: 5px;
+    margin-right: 25px;
+    font-size: 30px;
+    display: none;
+}
+@media screen and (max-width:795px) {
+    .list{
+        display: none;
+    }
+    .bar{
+        display: block;
+    }
+    
+}
+#home{
+   
+}
+.txt{
+    position: absolute;
+    margin-top: -540px;
+   
+}
+.txt>h2{
+    font-size:5rem;
+    font-weight: 900;
+    line-height: 1.2;
+    color: #fff;
+    margin-left: 130px;
+}
+.txt>p{
+    font-size: 1.5rem;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #fff;
+    margin-left: 130px;
+}
+@media screen and (max-width:1024px) {
+    .txt{
+        position: absolute;
+        margin-top: -400px;
+       
+    } 
+}
+@media screen and (max-width:768px) {
+    .txt{
+        position: absolute;
+        margin-top: -350px;
+       
+    } 
+    .txt>h2{
+        font-size: 3.5rem;
+        margin-left: 60px;
+    }
+    .txt>p{
+        margin-left: 60px; 
+    }
+}
+@media screen and (max-width:425px) {
+    .txt{
+        position: absolute;
+        margin-top: -420px;
+       
+    } 
+    #img-banner{
+        height: 500px !important;
+    }
+    .txt>h2{
+        font-size: 3rem;
+        margin-left: 30px;
+    }
+    .txt>p{
+        margin-left: 30px; 
+        font-size: 1.1rem;
+    }
+}
+@media screen and (max-width:320px) {
+    .txt{
+        position: absolute;
+        margin-top: -420px;
+       
+    } 
+    #img-banner{
+        height: 500px !important;
+    }
+    .txt>h2{
+        font-size: 3rem;
+        margin-left: 20px;
+    }
+    .txt>p{
+        margin-left: 20px; 
+        font-size: 1.1rem;
+    }
+}
+@media  (min-width:1023px) and (max-width:1400px) {
+     
+    .txt>h2{
+        font-size: 4rem;
+        margin-left: 200px;
+    }
+    .txt>p{
+        margin-left: 200px; 
+        font-size: 1.1rem;
+    }
+    
+}
+@media  (min-width:769px) and (max-width:1023px) {
+    .txt{
+        position: absolute;
+        margin-top: -420px;
+       
+    } 
+    .txt>h2{
+        font-size: 4rem;
+        margin-left: 30px;
+    }
+    .txt>p{
+        margin-left: 30px; 
+        font-size: 1.1rem;
+    }
+    
+}
+@media  (min-width:425px) and (max-width:768px) {
+    .txt{
+        position: absolute;
+        margin-top: -420px;
+       
+    } 
+    #img-banner{
+        height: 500px !important;
+    }
+    .txt>h2{
+        font-size: 3rem;
+        margin-left: 30px;
+    }
+    .txt>p{
+        margin-left: 30px; 
+        font-size: 1.1rem;
+    }
+    
+}
+.footer{
+    width: 100%;
+    height:auto;
+    background-color: #1a2a36;
+}
+#m-footer{
+    margin-left: 80px !important;
+    gap: 20px;
+}
+.first{
+  margin-top: 100px;
+  width: 300px;
+}
+.first>h2{
+    color: #32C36C;
+   
+}
+.first>p{
+    color: #fff;
+    padding: 5px;
+}
+.first>a{
+    text-decoration: none;
+    color: #fff;
+    padding: 9px;
+}
